@@ -7,7 +7,9 @@ authors = [
     { name = "tsteelematc", email = "tsteele@madisoncollege.edu" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas>=3.0.6",
+]
 
 [project.scripts]
 toms-data-scrubbing = "toms_data_scrubbing:main"
